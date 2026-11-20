@@ -220,6 +220,9 @@ def gen_featured(nodes):
         y = (i // cols) * (ch + gap) + 4
         lang = (r["primaryLanguage"] or {}).get("name") or "—"
         color = LANG_COLORS.get(lang.lower(), "#8b949e")
+        rname = r["name"]
+        if len(rname) > 46:
+            rname = rname[:43] + "…"
         desc = (r["description"] or "").strip().replace("\n", " ")
         if len(desc) > 78:
             desc = desc[:75] + "…"
@@ -227,7 +230,7 @@ def gen_featured(nodes):
             f'<a href="{r["url"]}" target="_blank">'
             f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="10" fill="{CARD}" '
             f'stroke="{BORDER}" stroke-opacity="0.6" stroke-width="1.4"/>'
-            f'<text x="{x+14}" y="{y+28}" font-size="15" font-weight="bold" fill="{CYAN}">{esc(r["name"])}</text>'
+            f'<text x="{x+14}" y="{y+28}" font-size="14" font-weight="bold" fill="{CYAN}">{esc(rname)}</text>'
             f'<text x="{x+14}" y="{y+50}" font-size="11.5" fill="{MUTED}">{esc(desc)}</text>'
             f'<circle cx="{x+20}" cy="{y+ch-22}" r="5" fill="{color}"/>'
             f'<text x="{x+32}" y="{y+ch-18}" font-size="11.5" fill="{TEXT}">{esc(lang)}</text>'
