@@ -1,0 +1,70 @@
+name: Update profile graphics
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # daily, 02:30 UTC
+  workflow_dispatch:       # manual trigger
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    name: regenerate-profile-assets
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate stats / streak / languages / heatmap / featured cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_stats.py
+        continue-on-error: true   # keep previous assets if the API call fails
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: settings/3d-contrib.json
+        continue-on-error: true
+
+      - name: Move 3D graph into assets
+        run: |
+          mkdir -p assets
+          if [ -f profile-3d-contrib/contrib-3d.svg ]; then
+            mv profile-3d-contrib/contrib-3d.svg assets/contrib-3d.svg
+          fi
+          rm -rf profile-3d-contrib
+        continue-on-error: true
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/snake.svg?palette=github-dark&color_snake=%2300f0ff&color_dots=%23161b22,%230f5132,%231fa055,%232ee66b,%2300f0ff
+        continue-on-error: true
+
+      - name: Commit only if something changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --cached --quiet; then
+            echo "No asset changes — nothing to commit."
+          else
+            git commit -m "chore: update profile graphics [skip ci]"
+            git push
+          fi

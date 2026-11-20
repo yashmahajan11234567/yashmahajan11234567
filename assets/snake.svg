@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="220" viewBox="0 0 870 220" font-family="Segoe UI, Ubuntu, Sans-Serif">
+  <rect width="870" height="220" rx="12" fill="#0d1117" stroke="#1f6feb" stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="435" y="100" font-size="20" font-weight="bold" fill="#39ff14" text-anchor="middle">🐍 Contribution Snake</text>
+  <text x="435" y="130" font-size="13" fill="#8b949e" text-anchor="middle">Generated daily by GitHub Actions (Platane/snk) — first run pending after merge.</text>
+</svg>
