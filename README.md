@@ -3,21 +3,7 @@
      (see scripts/update_stats.py). No numbers are hardcoded. -->
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Yash Mahajan — Data | Analytics | ML | DevOps" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="assets/profile-avatar.png" alt="Yash Mahajan" width="160"/>
-</p>
-
-<h1 align="center">Hi 👋, I'm Yash Mahajan</h1>
-
-<h3 align="center">Aspiring Data Analyst &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; Data Engineering</h3>
-
-<p align="center">
-  🚀 Building data warehouses &amp; ML-based systems &nbsp;·&nbsp; 📍 Pune, India<br/>
-  🌐 Portfolio: <a href="https://personal-website-river.vercel.app"><b>personal-website-river.vercel.app</b></a>
-  &nbsp;·&nbsp; 🐙 <a href="https://github.com/yashmahajan11234567"><b>github.com/yashmahajan11234567</b></a>
+  <img src="assets/banner.svg" alt="Yash Mahajan — Data Analyst/Engineer | Cloud/DevOps" width="100%"/>
 </p>
 
 ---
