@@ -78,17 +78,29 @@ def svg_open(w, h):
             f'viewBox="0 0 {w} {h}" font-family="Segoe UI, Ubuntu, Sans-Serif">')
 
 
-def gen_stats(total_contrib, repo_count, stars, forks, years):
-    cards = [
-        ("🕒", str(total_contrib), "Contributions / yr", CYAN),
-        ("📁", str(repo_count), "Public Repositories", BLUE),
-        ("⭐", str(stars), "Stars Earned", "#f2c811"),
-        ("⑂", str(forks), "Forks", "#a371f7"),
-        ("📅", f"{years}+", "Years on GitHub", GREEN),
+# Lucide-style line icons (24x24 viewBox, stroke-based, fill none)
+ICONS = {
+    "activity": '<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>',
+    "folder": '<path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/>',
+    "star": '<polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>',
+    "branch": '<line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/>',
+    "calendar": '<rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>',
+}
+
+
+def stat_cards(total_contrib, repo_count, stars, forks, years):
+    return [
+        ("activity", str(total_contrib), "Contributions / yr", CYAN),
+        ("folder", str(repo_count), "Public Repositories", BLUE),
+        ("star", str(stars), "Stars Earned", "#f2c811"),
+        ("branch", str(forks), "Forks", "#a371f7"),
+        ("calendar", f"{years}+", "Years on GitHub", GREEN),
     ]
-    # 3 + 2 layout: narrow enough to stay readable when scaled on mobile
-    cw, ch, gap = 156, 96, 12
-    cols = 3
+
+
+def gen_stats_grid(cards, cols):
+    """Compact stat cards. cols=5 -> one desktop row; cols=2 -> mobile wrap."""
+    cw, ch, gap = 140, 84, 10
     rows = (len(cards) + cols - 1) // cols
     w = cols * cw + (cols - 1) * gap
     h = rows * ch + (rows - 1) * gap
@@ -97,14 +109,25 @@ def gen_stats(total_contrib, repo_count, stars, forks, years):
         x = (i % cols) * (cw + gap)
         y = (i // cols) * (ch + gap)
         parts.append(
-            f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="12" fill="{CARD}" '
-            f'stroke="{color}" stroke-opacity="0.55" stroke-width="1.5"/>'
-            f'<text x="{x+14}" y="{y+30}" font-size="20">{icon}</text>'
-            f'<text x="{x+14}" y="{y+62}" font-size="26" font-weight="bold" fill="{color}">{val}</text>'
-            f'<text x="{x+14}" y="{y+84}" font-size="11.5" fill="{MUTED}">{label}</text>'
+            f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="10" fill="{CARD}" '
+            f'stroke="{color}" stroke-opacity="0.55" stroke-width="1.4"/>'
+            f'<g transform="translate({x + 14},{y + 16}) scale(0.83)" fill="none" stroke="{color}" '
+            f'stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{ICONS[icon]}</g>'
+            f'<text x="{x + 40}" y="{y + 37}" font-size="23" font-weight="bold" fill="{color}">{val}</text>'
+            f'<text x="{x + 14}" y="{y + 66}" font-size="10.5" fill="{MUTED}">{label}</text>'
         )
     parts.append("</svg>")
     return "".join(parts)
+
+
+def gen_stats(total_contrib, repo_count, stars, forks, years):
+    """Desktop: all five cards in one horizontal row."""
+    return gen_stats_grid(stat_cards(total_contrib, repo_count, stars, forks, years), cols=5)
+
+
+def gen_stats_mobile(total_contrib, repo_count, stars, forks, years):
+    """Narrow screens: compact 2-column wrap, no overflow."""
+    return gen_stats_grid(stat_cards(total_contrib, repo_count, stars, forks, years), cols=2)
 
 
 def streaks(days):
@@ -274,6 +297,7 @@ def main():
     os.makedirs(ASSETS, exist_ok=True)
     outputs = {
         "stats.svg": gen_stats(cal["totalContributions"], len(nodes), stars, forks, years),
+        "stats-mobile.svg": gen_stats_mobile(cal["totalContributions"], len(nodes), stars, forks, years),
         "streak.svg": gen_streak(cur, longest),
         "top-langs.svg": gen_top_langs(lang_bytes),
         "contribution-graph.svg": gen_heatmap(cal["weeks"]),

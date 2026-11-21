@@ -22,10 +22,13 @@
 
 ---
 
-<h2 align="center">📊 GitHub Statistics</h2>
+<h2 align="center"><img src="assets/icons/activity.svg" width="22" alt=""/> GitHub Statistics</h2>
 
 <p align="center">
-  <img src="assets/stats.svg" alt="GitHub stats: contributions, repositories, stars, forks, years"/>
+  <picture>
+    <source media="(max-width: 640px)" srcset="assets/stats-mobile.svg"/>
+    <img src="assets/stats.svg" alt="GitHub stats: contributions, repositories, stars, forks, years"/>
+  </picture>
 </p>
 
 <table align="center">
