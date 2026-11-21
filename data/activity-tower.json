@@ -1,0 +1,1481 @@
+{
+ "generated_at": "2026-11-21T08:41:06+00:00",
+ "user": "yashmahajan11234567",
+ "commits_per_branch_limit": 10,
+ "totals": {
+  "repositories": 17,
+  "branches": 22,
+  "commits_displayed": 190
+ },
+ "repositories": [
+  {
+   "name": "ai-marketing-platform",
+   "url": "https://github.com/yashmahajan11234567/ai-marketing-platform",
+   "description": "AI Marketing Platform for Local Businesses - Presentation Website",
+   "is_fork": false,
+   "color": "#e23661",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/tree/main",
+     "total_commits": 17,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "57c9f94",
+       "message": "Fix: Update Next.js to patched version 15.3.3 (security fix)",
+       "date": "2026-09-26T15:39:25Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/57c9f9499bf63ba34694f22de3170a8d79c33803"
+      },
+      {
+       "sha": "bea2712",
+       "message": "Fix: Remove ES module PostCSS config",
+       "date": "2026-09-26T15:38:31Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/bea27124391b37b4b5c6f95104b14b3e398a578d"
+      },
+      {
+       "sha": "f403889",
+       "message": "Fix: Add CommonJS PostCSS config",
+       "date": "2026-09-26T15:37:33Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/f40388930cacdcadfee1cc6a85ca835e8c9fc44f"
+      },
+      {
+       "sha": "0756e29",
+       "message": "Fix: Remove invalid reactMode from Next.js config",
+       "date": "2026-09-26T15:36:41Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/0756e29736b7ffb33679e3fa34f214c0e6af03cc"
+      },
+      {
+       "sha": "12891e1",
+       "message": "Update README with full deployment instructions",
+       "date": "2026-09-26T12:24:12Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/12891e1ee04ec48e1bd9590fbcd8718e54e3326d"
+      },
+      {
+       "sha": "1435a49",
+       "message": "Fix vercel.json with valid config",
+       "date": "2026-09-26T12:24:09Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/1435a496a566208f849851ce2447528fcf20dce4"
+      },
+      {
+       "sha": "24eff29",
+       "message": "Add .gitignore",
+       "date": "2026-09-26T12:21:30Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/24eff294207f914d20ac341c422506d4bd076b6d"
+      },
+      {
+       "sha": "46e0b1d",
+       "message": "Add vercel.json",
+       "date": "2026-09-26T12:21:26Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/46e0b1db01ab32d64c548670f1ea8c92b8005549"
+      },
+      {
+       "sha": "d3b750b",
+       "message": "Add src/app/page.tsx - full pitch deck",
+       "date": "2026-09-26T12:17:49Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/d3b750b266e107cd9a9de37cbbe55564e4265fb2"
+      },
+      {
+       "sha": "05406a6",
+       "message": "Add src/app/globals.css",
+       "date": "2026-09-26T12:14:31Z",
+       "url": "https://github.com/yashmahajan11234567/ai-marketing-platform/commit/05406a6427f5a5fa79c43dd600fe6e228b932485"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AI-OS",
+   "url": "https://github.com/yashmahajan11234567/AI-OS",
+   "description": "",
+   "is_fork": false,
+   "color": "#3639e2",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/AI-OS/tree/main",
+     "total_commits": 91,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "5116251",
+       "message": "Integrate B4 evaluation pipeline and runtime improvements",
+       "date": "2026-09-22T18:21:41Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/5116251b06caf661f3e9cb3def0997af991ff8fa"
+      },
+      {
+       "sha": "27dd9f5",
+       "message": "M14-T2: Register dashboard_user allow-rules + ProjectService lifecycle methods",
+       "date": "2026-09-15T07:39:31Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/27dd9f536612e57914d7b3e498bf52ca601b00fc"
+      },
+      {
+       "sha": "d1afc0b",
+       "message": "AI-OS v1.0.0 \u2014 Development Roadmap Complete",
+       "date": "2026-09-14T19:26:18Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/d1afc0b7cb8893ddee02a9de09d08e17b89dd1ec"
+      },
+      {
+       "sha": "a8745e4",
+       "message": "m12-t6 complete with score 97",
+       "date": "2026-09-14T18:35:05Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/a8745e4542579aa6c4d73ccc9d0af5e2ce78ac14"
+      },
+      {
+       "sha": "7a37412",
+       "message": "M12-T6: promote model access criterion",
+       "date": "2026-09-14T18:24:49Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/7a37412e82f16d555c3b6d5e0445d290a3aefefc"
+      },
+      {
+       "sha": "b52f90d",
+       "message": "M12-T6: close model access dispatch",
+       "date": "2026-09-14T18:16:42Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/b52f90d67735bb7692beba6cc0efe3038284b914"
+      },
+      {
+       "sha": "b3b30e0",
+       "message": "M12-T6: promote monitoring criterion",
+       "date": "2026-09-14T17:35:57Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/b3b30e0ca581b76e5ef4d0cc2ed02903590e61a7"
+      },
+      {
+       "sha": "cd63ef8",
+       "message": "M12-T6: wire automatic health monitoring startup",
+       "date": "2026-09-14T17:29:43Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/cd63ef85da18a3f9a11a282453ab24a59ab389db"
+      },
+      {
+       "sha": "48eff27",
+       "message": "M12-T6: Governance correction - Update Security tests status to \u2705 in authoritative plan and revert scoring script",
+       "date": "2026-09-14T14:59:55Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/48eff2729ea855c98705f3fbd6f0d4a741fe6a47"
+      },
+      {
+       "sha": "3860f0e",
+       "message": "M12-T6: align security test acceptance status",
+       "date": "2026-09-14T14:53:50Z",
+       "url": "https://github.com/yashmahajan11234567/AI-OS/commit/3860f0e5f31c87d0398db9fc572ceca42dd92048"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bluestock-fintech",
+   "url": "https://github.com/yashmahajan11234567/Bluestock-fintech",
+   "description": "",
+   "is_fork": false,
+   "color": "#5336e2",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/tree/main",
+     "total_commits": 24,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "20f44c4",
+       "message": "Complete Day 45 QA and remediation",
+       "date": "2026-08-18T08:20:37Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/20f44c4acaec35feb2c2554043933ea96619e8ab"
+      },
+      {
+       "sha": "b4183ac",
+       "message": "sprint 5 complete",
+       "date": "2026-08-11T04:36:53Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/b4183acc49e49a18ddb1bd7dd315443770dbca7b"
+      },
+      {
+       "sha": "2f73797",
+       "message": "Day 30 specification compliance: Remove PRO_13/CON_13, strict 24-rule spec",
+       "date": "2026-08-10T14:00:42Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/2f73797e4e410735fe28b18d5add121083a8f2b5"
+      },
+      {
+       "sha": "d364333",
+       "message": "Day 30: Complete Auto Pros/Cons Generator with zero coverage gaps",
+       "date": "2026-08-10T13:39:43Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/d364333884f9494c54521afcf40b004c2dc64140"
+      },
+      {
+       "sha": "05bc03c",
+       "message": "Complete Sprint 4: Nifty100 Analytics Dashboard",
+       "date": "2026-07-29T17:22:49Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/05bc03cb01d5c95e6f7ddc77a4c8b9369788e32d"
+      },
+      {
+       "sha": "2f64cb1",
+       "message": "Sprint 4 complete: Streamlit dashboard and integration fixes",
+       "date": "2026-07-29T16:35:44Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/2f64cb15189b577c88d3f090d90a99b03f992ac3"
+      },
+      {
+       "sha": "8f48a1d",
+       "message": "sprint 4",
+       "date": "2026-07-29T11:48:57Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/8f48a1d8837018c54a5eb9d6a00cf8f03848b33b"
+      },
+      {
+       "sha": "de125ce",
+       "message": "Complete Sprint 3: Screener engine, peer analytics, charts and reporting",
+       "date": "2026-07-23T11:26:01Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/de125ce498fcfed024a5cb9037f4ee49dc0c05a5"
+      },
+      {
+       "sha": "cbd1103",
+       "message": "Complete Sprint 2 financial analytics engine",
+       "date": "2026-07-22T19:50:19Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/cbd110344c184979946ab872a26b83886120618f"
+      },
+      {
+       "sha": "0993e1f",
+       "message": "sprint 1 complete",
+       "date": "2026-07-17T11:21:57Z",
+       "url": "https://github.com/yashmahajan11234567/Bluestock-fintech/commit/0993e1f3959e9e4a3b7ede30f8fd338134679ac3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "cmpb-medicine-substitution-scoring",
+   "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring",
+   "description": "CMPB manuscript: Transparent Implementation and Verification of a Medicine Substitution-Scoring Algorithm. Deterministic DS algorithm implementation, 196-assertion test suite, reproduction scripts for all manuscript tables/figures.",
+   "is_fork": false,
+   "color": "#c636e2",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/tree/main",
+     "total_commits": 10,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "c6768b7",
+       "message": "Fix CRediT name wrapping on page 7",
+       "date": "2026-10-29T19:19:25Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/c6768b77f73cd09fd51f729e03349b39d9f77512"
+      },
+      {
+       "sha": "5b74932",
+       "message": "Replace long GitHub URLs with short clickable labels",
+       "date": "2026-10-29T19:10:53Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/5b749325a2560e7c6dbdd364265672df9a0c52d4"
+      },
+      {
+       "sha": "dc7e62a",
+       "message": "Fix URL line wrapping on page 7 Conclusion",
+       "date": "2026-10-29T19:04:14Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/dc7e62ad79a725601c14667ae1afff92314bd05f"
+      },
+      {
+       "sha": "e7c80fa",
+       "message": "Fix CRediT statement, remove hyperlink borders, rebuild PDF",
+       "date": "2026-10-29T18:56:28Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/e7c80fa5f154da22b725a660438198ad93f4cdb4"
+      },
+      {
+       "sha": "809b84b",
+       "message": "Update submission package: author approvals confirmed",
+       "date": "2026-10-29T18:38:57Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/809b84beaa6e0d7ae77b3cb4ea46059c6e782bce"
+      },
+      {
+       "sha": "f4bbe59",
+       "message": "Update submission package docs with verified Zenodo DOI",
+       "date": "2026-10-29T18:35:15Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/f4bbe59c035476ea488f10c35eefccca5b620e9e"
+      },
+      {
+       "sha": "4436097",
+       "message": "Update manuscript availability statement with verified GitHub URL and Zenodo DOI",
+       "date": "2026-10-29T18:16:56Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/44360975f20b57632ac2d2b97d13a784e791fc66"
+      },
+      {
+       "sha": "3dbd50a",
+       "message": "Add CMPB submission package",
+       "date": "2026-10-29T17:51:15Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/3dbd50a15c59632e6462929f821d0e8f2969bb02"
+      },
+      {
+       "sha": "db9938d",
+       "message": "Add repository metadata: README, LICENSE, CITATION.cff, pyproject.toml",
+       "date": "2026-10-29T17:45:39Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/db9938db65705dfe1bff7c8ac8e3c484bfe00b32"
+      },
+      {
+       "sha": "84377ea",
+       "message": "CMPB V13 manuscript + implementation + reproduction artifacts",
+       "date": "2026-10-29T17:41:56Z",
+       "url": "https://github.com/yashmahajan11234567/cmpb-medicine-substitution-scoring/commit/84377ea2bef41f8496c634811b71afd49a7e808d"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "data-portfolio",
+   "url": "https://github.com/yashmahajan11234567/data-portfolio",
+   "description": "",
+   "is_fork": false,
+   "color": "#e27836",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/data-portfolio/tree/main",
+     "total_commits": 4,
+     "commits_displayed": 4,
+     "commits": [
+      {
+       "sha": "ea51e09",
+       "message": "Revise README for clarity and improved presentation",
+       "date": "2026-04-18T17:04:02Z",
+       "url": "https://github.com/yashmahajan11234567/data-portfolio/commit/ea51e092614a1498b616d32f7435cf260de07dcf"
+      },
+      {
+       "sha": "26735db",
+       "message": "Update README.md",
+       "date": "2026-04-18T16:57:14Z",
+       "url": "https://github.com/yashmahajan11234567/data-portfolio/commit/26735dbaf2e33662f1b308c2e3359acd7bc85544"
+      },
+      {
+       "sha": "cbf9cd7",
+       "message": "Update README with personal data portfolio details",
+       "date": "2026-04-18T16:52:43Z",
+       "url": "https://github.com/yashmahajan11234567/data-portfolio/commit/cbf9cd7e50d6628ab32a5df8b218a5cfa30c8cf7"
+      },
+      {
+       "sha": "e8c7d04",
+       "message": "Initial commit",
+       "date": "2026-04-18T16:52:08Z",
+       "url": "https://github.com/yashmahajan11234567/data-portfolio/commit/e8c7d0463bef7c8ebaaa55c0e331d175ec6f24a7"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "DevOps",
+   "url": "https://github.com/yashmahajan11234567/DevOps",
+   "description": "college open elective ",
+   "is_fork": false,
+   "color": "#e236ce",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/DevOps/tree/main",
+     "total_commits": 6,
+     "commits_displayed": 6,
+     "commits": [
+      {
+       "sha": "96b60f9",
+       "message": "final pushe",
+       "date": "2026-07-15T12:19:21Z",
+       "url": "https://github.com/yashmahajan11234567/DevOps/commit/96b60f93ead44e36776e9a3afacce6e7b6057cff"
+      },
+      {
+       "sha": "fa5626d",
+       "message": "Disable Jekyll",
+       "date": "2026-07-15T12:05:11Z",
+       "url": "https://github.com/yashmahajan11234567/DevOps/commit/fa5626dd11b46a567dc940915f0ae3b695b554fa"
+      },
+      {
+       "sha": "a135e74",
+       "message": "final structure",
+       "date": "2026-07-15T11:45:20Z",
+       "url": "https://github.com/yashmahajan11234567/DevOps/commit/a135e74b1ad8612bf056a53ce958e0dba6feff29"
+      },
+      {
+       "sha": "ed0328c",
+       "message": "Add GitHub Pages deployment files",
+       "date": "2026-07-15T11:38:08Z",
+       "url": "https://github.com/yashmahajan11234567/DevOps/commit/ed0328cb1e79a0d03cb82855719d973c278a7a7b"
+      },
+      {
+       "sha": "7bda11c",
+       "message": "personal portfolio",
+       "date": "2026-07-15T06:08:40Z",
+       "url": "https://github.com/yashmahajan11234567/DevOps/commit/7bda11cff8b4565afd3b017e1bb2c4101b8aa285"
+      },
+      {
+       "sha": "be34894",
+       "message": "Assignment 1: Added previous FSDL assignments",
+       "date": "2026-07-14T17:40:22Z",
+       "url": "https://github.com/yashmahajan11234567/DevOps/commit/be348945a51655abcbc77cf65270899f9507ce0f"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "devops-health-check",
+   "url": "https://github.com/yashmahajan11234567/devops-health-check",
+   "description": "First DevOps portfolio project: Flask health-check service, Docker, GitHub Actions CI, Minikube deployment",
+   "is_fork": false,
+   "color": "#36e28f",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/devops-health-check/tree/main",
+     "total_commits": 2,
+     "commits_displayed": 2,
+     "commits": [
+      {
+       "sha": "528ae15",
+       "message": "fix(ci): add root conftest.py so plain 'pytest' resolves 'app' import (CI ran pytest binary, not python -m pytest)",
+       "date": "2026-10-17T07:42:38Z",
+       "url": "https://github.com/yashmahajan11234567/devops-health-check/commit/528ae1520f1590a709980cab40eaa3eca07b6080"
+      },
+      {
+       "sha": "8c9b84c",
+       "message": "devops-health-check: Flask health-check service + Docker + GitHub Actions CI + Minikube deployment",
+       "date": "2026-10-17T07:40:24Z",
+       "url": "https://github.com/yashmahajan11234567/devops-health-check/commit/8c9b84cb0bfe43d478a5f25c09fc7b55c0f207be"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "digital-prescription-verification-devops",
+   "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops",
+   "description": "devops-fa1/fa2",
+   "is_fork": true,
+   "color": "#4a36e2",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/tree/main",
+     "total_commits": 15,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "778e9cd",
+       "message": "project complete",
+       "date": "2026-10-17T04:10:26Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/778e9cd7fa42a53698327a26d2b830e9bcf03565"
+      },
+      {
+       "sha": "dbfe5e6",
+       "message": "FA2 V1",
+       "date": "2026-10-13T05:06:26Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/dbfe5e6b1440041c2ece59515a2f1f33cf2b24bf"
+      },
+      {
+       "sha": "53fe5ab",
+       "message": "FA2 V1 - Demo ready",
+       "date": "2026-10-12T17:01:24Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/53fe5ab7f917305df2328fb355a821ea4c6bac6b"
+      },
+      {
+       "sha": "4f7ab8c",
+       "message": "FA2 V1 - Demo ready",
+       "date": "2026-10-12T13:14:39Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/4f7ab8cb4973c487f8ab17951fc7d28a9cc5ff49"
+      },
+      {
+       "sha": "964cfdf",
+       "message": "FA2 V1 - Demo ready",
+       "date": "2026-10-12T13:12:05Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/964cfdfad08ef4c3f3508ac4fb0012d5f9e71898"
+      },
+      {
+       "sha": "aa72fff",
+       "message": "fix: add missing admin doctor_detail template",
+       "date": "2026-10-09T17:00:39Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/aa72fff55dc11ec848beaf1a0836c2979cd0435c"
+      },
+      {
+       "sha": "623ddf5",
+       "message": "docs: clarify local demo and monitoring endpoints",
+       "date": "2026-10-09T15:22:14Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/623ddf53a2a29bab56967a41299178c046b0876a"
+      },
+      {
+       "sha": "09f1255",
+       "message": "FA2 V1 - Fix functional defects, add pharmacist receive action, complete admin CRUD, design review",
+       "date": "2026-10-09T15:05:26Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/09f12550e31274ce38973f5add61395043727a23"
+      },
+      {
+       "sha": "f3d6ddb",
+       "message": "design: distinctive visual direction for RxVerify",
+       "date": "2026-10-09T12:49:48Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/f3d6ddbca2201871b59256c5c3c62c42287de843"
+      },
+      {
+       "sha": "7438ecc",
+       "message": "feat: finalize RxVerify DevOps monitoring and CI/CD with admin/hospital system",
+       "date": "2026-10-09T12:04:43Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/7438eccce72931f8ca79be37cdc9cf455e072063"
+      }
+     ]
+    },
+    {
+     "name": "feature/project-improvements",
+     "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/tree/feature/project-improvements",
+     "total_commits": 7,
+     "commits_displayed": 7,
+     "commits": [
+      {
+       "sha": "d5c1b62",
+       "message": "Complete RxVerify security and provisioning workflows",
+       "date": "2026-08-28T14:46:11Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/d5c1b6232f65d6409d488118b9b1afafc5109dda"
+      },
+      {
+       "sha": "22071cc",
+       "message": "chore: ignore local runtime artifacts",
+       "date": "2026-08-21T20:30:20Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/22071cc68a586c57068830239b5f8e6ff7694d8e"
+      },
+      {
+       "sha": "53362c7",
+       "message": "Fix hospital seeding logic to prevent duplicates",
+       "date": "2026-08-21T20:27:49Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/53362c7eec26b25b50fb2143ec8468d4b9e4be04"
+      },
+      {
+       "sha": "0caae11",
+       "message": "Remove PostgreSQL; switch RxVerify to SQLite; harden Terraform",
+       "date": "2026-08-21T20:08:54Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/0caae11b10abbe23dc1908c9fe9e9cebdee48cb0"
+      },
+      {
+       "sha": "03b0bdb",
+       "message": "Fix admin portal routing and RBAC UX",
+       "date": "2026-08-21T16:14:50Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/03b0bdb537d711b2aa69bf0e8e8d9d217e050dae"
+      },
+      {
+       "sha": "c3df62c",
+       "message": "Complete RxVerify DevOps project",
+       "date": "2026-08-21T14:01:40Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/c3df62c60324ac50ccc6fc94e0d727cbe3302681"
+      },
+      {
+       "sha": "b68d735",
+       "message": "Complete RxVerify DevOps deployment",
+       "date": "2026-08-17T11:04:40Z",
+       "url": "https://github.com/yashmahajan11234567/digital-prescription-verification-devops/commit/b68d735edd9a7731121771736c65e849313acb7d"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Full-Stack-AI-DevOps-Masterclass",
+   "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass",
+   "description": "",
+   "is_fork": false,
+   "color": "#e2366d",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/tree/main",
+     "total_commits": 40,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "60ce705",
+       "message": "hello_python_ci.yaml",
+       "date": "2026-06-25T18:18:58Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/60ce705e8459d9421275c791fd2c9f5fddc941f5"
+      },
+      {
+       "sha": "f415a6a",
+       "message": "hello_python_ci.yaml",
+       "date": "2026-06-25T18:14:21Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/f415a6ae4557324f1452e218b3e5157eaf213f50"
+      },
+      {
+       "sha": "3170fe3",
+       "message": "hello-node-ci.yaml",
+       "date": "2026-06-25T12:28:08Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/3170fe3d5e8f84048747d5724eaf91c46643a8a5"
+      },
+      {
+       "sha": "6620572",
+       "message": "hello-node-ci.yaml",
+       "date": "2026-06-25T12:26:52Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/66205726a42e93929ba382959a6faf47f2bdf4f6"
+      },
+      {
+       "sha": "1c4c087",
+       "message": "hello-node-ci.yaml",
+       "date": "2026-06-25T12:20:38Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/1c4c08797b6d28ca4b760563dd77e97d46bac757"
+      },
+      {
+       "sha": "9ab12f8",
+       "message": "hello-node-ci.yaml",
+       "date": "2026-06-25T12:19:16Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/9ab12f8cf45dedec07f47fc081ee0b0c3d7a27e6"
+      },
+      {
+       "sha": "b065590",
+       "message": "hello-node-ci.yaml",
+       "date": "2026-06-25T12:16:31Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/b0655902f558d25cbda992964a4615ec26b9be04"
+      },
+      {
+       "sha": "5643cbe",
+       "message": "hello-spring-ci",
+       "date": "2026-06-25T10:18:16Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/5643cbe544ff9c42b47a68fcb48e52ce851335f8"
+      },
+      {
+       "sha": "ee8bf33",
+       "message": "hello-spring-ci",
+       "date": "2026-06-25T10:13:40Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/ee8bf33d0a42ca83b214846575666c4321a53975"
+      },
+      {
+       "sha": "321bd40",
+       "message": "hello-spring-ci",
+       "date": "2026-06-25T10:08:35Z",
+       "url": "https://github.com/yashmahajan11234567/Full-Stack-AI-DevOps-Masterclass/commit/321bd40f637ca66cd0e9864f324c5e547d82642a"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Learning",
+   "url": "https://github.com/yashmahajan11234567/Learning",
+   "description": "",
+   "is_fork": false,
+   "color": "#364de2",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/Learning/tree/main",
+     "total_commits": 16,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "daa5a23",
+       "message": "Create Placeholder",
+       "date": "2026-06-26T17:49:39Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/daa5a2307c1de84d1fabaa59cd0ee5f98bfec948"
+      },
+      {
+       "sha": "3ac7c20",
+       "message": "Create Placeholder",
+       "date": "2026-06-26T17:48:36Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/3ac7c202abcd27c88d97ea864f6838d6d1070847"
+      },
+      {
+       "sha": "98882cd",
+       "message": "Create placeholder",
+       "date": "2026-06-26T17:47:59Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/98882cd8c2e007e4a8a0e25ff0ca6dedc1798977"
+      },
+      {
+       "sha": "432b6d4",
+       "message": "Create placeholder",
+       "date": "2026-06-26T17:47:31Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/432b6d4b631525533431ef9fb14d730454b0a33d"
+      },
+      {
+       "sha": "5d32195",
+       "message": "Revise README for coursework and subjects overview",
+       "date": "2026-04-18T17:07:26Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/5d321955a2ba03c3b8b21eac2045ea8126711d37"
+      },
+      {
+       "sha": "e223c6d",
+       "message": "Add DBMS folder",
+       "date": "2026-01-28T16:46:56Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/e223c6d6d1eb9a22b90058f79b18d44213a72e1c"
+      },
+      {
+       "sha": "25c03e8",
+       "message": "Add ADS folder and move algorithms files",
+       "date": "2026-01-26T09:40:33Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/25c03e8112c185c925919580a94550bca486fdfc"
+      },
+      {
+       "sha": "3a01ab5",
+       "message": "Delete ADS directory",
+       "date": "2026-01-26T09:35:35Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/3a01ab52dd3f632c341a02dc8d048cd574775e10"
+      },
+      {
+       "sha": "b4d5ce6",
+       "message": "Add files via upload",
+       "date": "2026-01-26T09:34:55Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/b4d5ce650d50c21ed8a6d857441111fa8b08c15d"
+      },
+      {
+       "sha": "b27ccd4",
+       "message": "Create .gitkeep",
+       "date": "2026-01-26T09:29:14Z",
+       "url": "https://github.com/yashmahajan11234567/Learning/commit/b27ccd4dc82912ea292ed34ce3786526151bf548"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Medigen",
+   "url": "https://github.com/yashmahajan11234567/Medigen",
+   "description": "",
+   "is_fork": false,
+   "color": "#e23675",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/Medigen/tree/main",
+     "total_commits": 45,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "585e21d",
+       "message": "docker file modified 1",
+       "date": "2026-07-25T17:45:23Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/585e21d0e0dc15257c461d262201790297e7a3f0"
+      },
+      {
+       "sha": "7b9bcd8",
+       "message": "modified dockerfile",
+       "date": "2026-07-25T17:34:17Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/7b9bcd84e564d2cb8f20a81786d966206212bd4b"
+      },
+      {
+       "sha": "91f0738",
+       "message": "Release v1.0.0 - Production ready",
+       "date": "2026-07-25T15:12:48Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/91f073806f91268ae9355ac504f706e65e1f7195"
+      },
+      {
+       "sha": "2496fff",
+       "message": "Fix deployment by using Python 3.11 for PaddleOCR compatibility",
+       "date": "2026-07-24T19:32:21Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/2496ffffffed23c9c5cb363c835d4a9b8b869a4f"
+      },
+      {
+       "sha": "b210fce",
+       "message": "Release v1.0.0 - Final audit fixes and production readiness",
+       "date": "2026-07-24T19:25:39Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/b210fcec44670b04f8da21fb64c68ef7e2972a14"
+      },
+      {
+       "sha": "1961f22",
+       "message": "entrypoint chnage",
+       "date": "2026-07-23T14:02:28Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/1961f22923bc1bbbe359dd1b920b459004309d08"
+      },
+      {
+       "sha": "181f499",
+       "message": "changes 1",
+       "date": "2026-07-23T13:42:29Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/181f499c6c6416d0134f31095ccf3b08dd504eeb"
+      },
+      {
+       "sha": "cd0f4c9",
+       "message": "deployment issue clearing",
+       "date": "2026-07-23T13:15:44Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/cd0f4c9a85f98d008cad5c8498c54d6f8d04f5ef"
+      },
+      {
+       "sha": "343a045",
+       "message": "all changes",
+       "date": "2026-07-20T19:52:01Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/343a04507a0c271d2a626e3b12e59f8fe302784e"
+      },
+      {
+       "sha": "3cae537",
+       "message": "changes f1",
+       "date": "2026-07-20T19:49:49Z",
+       "url": "https://github.com/yashmahajan11234567/Medigen/commit/3cae53707d6eb2ab277d3c73225decfc80bc4ce6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "personal-website",
+   "url": "https://github.com/yashmahajan11234567/personal-website",
+   "description": "Cinematic interactive developer portfolio with game-inspired Data and Cloud experiences.",
+   "is_fork": false,
+   "color": "#36e2c8",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/personal-website/tree/main",
+     "total_commits": 107,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "fc0ae36",
+       "message": "Merge integrate/data-cloud-worlds into main: Data World + Cloud World (Projects Cloud, incl. seamless entry/exit) integr",
+       "date": "2026-11-19T16:56:27Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/fc0ae3633e3d4dc635ca25cc7eae39e7da23f260"
+      },
+      {
+       "sha": "a20eb52",
+       "message": "chore(integration): restore all pre-existing main files (root docs incl. README.md, qa-screenshots-* dirs)",
+       "date": "2026-11-19T16:40:48Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/a20eb52154e1e28ee47cbf246a075f5ed88d80d7"
+      },
+      {
+       "sha": "fbe1ef9",
+       "message": "chore(integration): scope control \u2014 drop superseded prototype worlds, generated screenshots, audit docs, one-off QA scri",
+       "date": "2026-11-19T15:15:24Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/fbe1ef986e63d2b5c995f89d5af835c6dcd354e1"
+      },
+      {
+       "sha": "fc2aaf1",
+       "message": "Merge origin/restore/data-world-386991f into main: Data World + Cloud World (Projects Cloud) with Experience section pre",
+       "date": "2026-11-19T15:10:20Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/fc2aaf14bf77c0615eb53fe6e4b2e970215549cc"
+      },
+      {
+       "sha": "8b45656",
+       "message": "feat(projects-cloud): seamless doorway entry/exit \u2014 warm camera-faded threshold, gentler door swing with camera-clearanc",
+       "date": "2026-11-19T13:24:48Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/8b45656e6b42b9194e6d92d2baf994a5b9cb9718"
+      },
+      {
+       "sha": "4ab2634",
+       "message": "calibrate(projects-cloud): close rear exterior, fluffier silhouette, softer white material",
+       "date": "2026-11-19T09:48:47Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/4ab2634df9b356cc9be07ee271d733753ef2154c"
+      },
+      {
+       "sha": "be4a520",
+       "message": "fix(projects-cloud): solid exterior cloud + BackSide interior shell",
+       "date": "2026-11-18T18:35:36Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/be4a5201f3288a0cccec2d09d781136752a9383b"
+      },
+      {
+       "sha": "b64f11c",
+       "message": "refine(projects-cloud): whiter cloud + scalloped front rim + slimmer door frame",
+       "date": "2026-11-18T17:51:24Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/b64f11cec318bec72ba50dd4df78ef87cbbcda98"
+      },
+      {
+       "sha": "d463f6a",
+       "message": "refine(projects-cloud): fluffier white cloud body + reference entrance details",
+       "date": "2026-11-18T17:14:23Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/d463f6a8c3bfe41584c81e18d2b59aacb40f693a"
+      },
+      {
+       "sha": "7faf272",
+       "message": "fix(qa): lift OrbitControls maxDistance while __cwQaCam pose is pinned",
+       "date": "2026-11-18T16:13:33Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/7faf27292763d9892459a25ea3206ddb58b2d809"
+      }
+     ]
+    },
+    {
+     "name": "cloud-world-dockside",
+     "url": "https://github.com/yashmahajan11234567/personal-website/tree/cloud-world-dockside",
+     "total_commits": 79,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "95702e8",
+       "message": "test: final mission smoke tests for all routes, courses carousel, mobile",
+       "date": "2026-11-12T08:01:45Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/95702e82b06e9ec20f2d1acf9cb45245332c393a"
+      },
+      {
+       "sha": "9a17e40",
+       "message": "feat: courses & certifications carousel after Experience section",
+       "date": "2026-11-12T08:01:43Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/9a17e402b5079442c7b3bd61c11a84f484f655a5"
+      },
+      {
+       "sha": "e94fa33",
+       "message": "feat(data-nexus): content-driven panels for skills, projects, and info from portfolio model",
+       "date": "2026-11-12T08:01:37Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/e94fa337b138234990e604903c8a5112e2135419"
+      },
+      {
+       "sha": "852c6e0",
+       "message": "feat(data-nexus): data-driven multi-room world (hub, skills tunnel, projects hub, 4 project rooms)",
+       "date": "2026-11-12T08:01:33Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/852c6e063bed51c7c6d8d8a439bf94c0e88af1a5"
+      },
+      {
+       "sha": "78a6119",
+       "message": "fix: resolve 7 pre-existing TS build errors in cloud-world-2",
+       "date": "2026-11-12T08:01:30Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/78a6119c5d4c8a220bcf1691dcae7ae9436dd44a"
+      },
+      {
+       "sha": "580cabd",
+       "message": "refactor: Cloud World 2.0 + Data Nexus integration",
+       "date": "2026-11-12T06:55:14Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/580cabdf3a95b7a4693f54fd082ef3a41caf73da"
+      },
+      {
+       "sha": "7b761bb",
+       "message": "cloud world completed",
+       "date": "2026-11-10T04:19:24Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/7b761bbcf19006e3079eff655a2d787c63895aa7"
+      },
+      {
+       "sha": "593e16f",
+       "message": "feat: Redesign Docker Whale with high-fidelity anatomy",
+       "date": "2026-11-07T11:20:06Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/593e16fd1229dcacecd39be9dea9c465bfed38ed"
+      },
+      {
+       "sha": "d7ee29f",
+       "message": "Third-person action upgrade: jump + gravity + coyote/buffer, click-to-move, clickable buildings with tight proxies, pitc",
+       "date": "2026-11-07T10:17:27Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/d7ee29fd477eb0e47ebd8c2c868907d869987a7b"
+      },
+      {
+       "sha": "2244539",
+       "message": "Launch-loop iteration: event-driven HUD zone+objective, ink outlines on whale/character, WCAG AA accent contrast, reduce",
+       "date": "2026-11-07T09:30:25Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/2244539dc90237ccd05613c9faf6f812c56a6761"
+      }
+     ]
+    },
+    {
+     "name": "integrate/data-cloud-worlds",
+     "url": "https://github.com/yashmahajan11234567/personal-website/tree/integrate/data-cloud-worlds",
+     "total_commits": 106,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "a20eb52",
+       "message": "chore(integration): restore all pre-existing main files (root docs incl. README.md, qa-screenshots-* dirs)",
+       "date": "2026-11-19T16:40:48Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/a20eb52154e1e28ee47cbf246a075f5ed88d80d7"
+      },
+      {
+       "sha": "fbe1ef9",
+       "message": "chore(integration): scope control \u2014 drop superseded prototype worlds, generated screenshots, audit docs, one-off QA scri",
+       "date": "2026-11-19T15:15:24Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/fbe1ef986e63d2b5c995f89d5af835c6dcd354e1"
+      },
+      {
+       "sha": "fc2aaf1",
+       "message": "Merge origin/restore/data-world-386991f into main: Data World + Cloud World (Projects Cloud) with Experience section pre",
+       "date": "2026-11-19T15:10:20Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/fc2aaf14bf77c0615eb53fe6e4b2e970215549cc"
+      },
+      {
+       "sha": "8b45656",
+       "message": "feat(projects-cloud): seamless doorway entry/exit \u2014 warm camera-faded threshold, gentler door swing with camera-clearanc",
+       "date": "2026-11-19T13:24:48Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/8b45656e6b42b9194e6d92d2baf994a5b9cb9718"
+      },
+      {
+       "sha": "4ab2634",
+       "message": "calibrate(projects-cloud): close rear exterior, fluffier silhouette, softer white material",
+       "date": "2026-11-19T09:48:47Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/4ab2634df9b356cc9be07ee271d733753ef2154c"
+      },
+      {
+       "sha": "be4a520",
+       "message": "fix(projects-cloud): solid exterior cloud + BackSide interior shell",
+       "date": "2026-11-18T18:35:36Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/be4a5201f3288a0cccec2d09d781136752a9383b"
+      },
+      {
+       "sha": "b64f11c",
+       "message": "refine(projects-cloud): whiter cloud + scalloped front rim + slimmer door frame",
+       "date": "2026-11-18T17:51:24Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/b64f11cec318bec72ba50dd4df78ef87cbbcda98"
+      },
+      {
+       "sha": "d463f6a",
+       "message": "refine(projects-cloud): fluffier white cloud body + reference entrance details",
+       "date": "2026-11-18T17:14:23Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/d463f6a8c3bfe41584c81e18d2b59aacb40f693a"
+      },
+      {
+       "sha": "7faf272",
+       "message": "fix(qa): lift OrbitControls maxDistance while __cwQaCam pose is pinned",
+       "date": "2026-11-18T16:13:33Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/7faf27292763d9892459a25ea3206ddb58b2d809"
+      },
+      {
+       "sha": "6f530a8",
+       "message": "refine(projects-cloud): match exterior reference details \u2014 single dominant crown, hanging sign w/ sans-serif white PROJE",
+       "date": "2026-11-18T15:39:59Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/6f530a8849e4c1b3e7f9f97e3a862b5f4690be39"
+      }
+     ]
+    },
+    {
+     "name": "restore/data-world-386991f",
+     "url": "https://github.com/yashmahajan11234567/personal-website/tree/restore/data-world-386991f",
+     "total_commits": 102,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "ee5f0e0",
+       "message": "fix(certificates): lightbox dark mode readability",
+       "date": "2026-11-20T15:32:59Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/ee5f0e0997ce994d75f958e1141fcf81c2f4eb2b"
+      },
+      {
+       "sha": "25200f2",
+       "message": "Complete portfolio website",
+       "date": "2026-11-20T00:34:30Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/25200f2fe28e10ba3f7b594c1de50ca6537b68e8"
+      },
+      {
+       "sha": "8b45656",
+       "message": "feat(projects-cloud): seamless doorway entry/exit \u2014 warm camera-faded threshold, gentler door swing with camera-clearanc",
+       "date": "2026-11-19T13:24:48Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/8b45656e6b42b9194e6d92d2baf994a5b9cb9718"
+      },
+      {
+       "sha": "4ab2634",
+       "message": "calibrate(projects-cloud): close rear exterior, fluffier silhouette, softer white material",
+       "date": "2026-11-19T09:48:47Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/4ab2634df9b356cc9be07ee271d733753ef2154c"
+      },
+      {
+       "sha": "be4a520",
+       "message": "fix(projects-cloud): solid exterior cloud + BackSide interior shell",
+       "date": "2026-11-18T18:35:36Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/be4a5201f3288a0cccec2d09d781136752a9383b"
+      },
+      {
+       "sha": "b64f11c",
+       "message": "refine(projects-cloud): whiter cloud + scalloped front rim + slimmer door frame",
+       "date": "2026-11-18T17:51:24Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/b64f11cec318bec72ba50dd4df78ef87cbbcda98"
+      },
+      {
+       "sha": "d463f6a",
+       "message": "refine(projects-cloud): fluffier white cloud body + reference entrance details",
+       "date": "2026-11-18T17:14:23Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/d463f6a8c3bfe41584c81e18d2b59aacb40f693a"
+      },
+      {
+       "sha": "7faf272",
+       "message": "fix(qa): lift OrbitControls maxDistance while __cwQaCam pose is pinned",
+       "date": "2026-11-18T16:13:33Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/7faf27292763d9892459a25ea3206ddb58b2d809"
+      },
+      {
+       "sha": "6f530a8",
+       "message": "refine(projects-cloud): match exterior reference details \u2014 single dominant crown, hanging sign w/ sans-serif white PROJE",
+       "date": "2026-11-18T15:39:59Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/6f530a8849e4c1b3e7f9f97e3a862b5f4690be39"
+      },
+      {
+       "sha": "d754d4f",
+       "message": "refine(projects-cloud): fluffy multi-lobed exterior silhouette (shape only)",
+       "date": "2026-11-18T13:37:04Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/d754d4f76af193eec64244df359f7f24b46bd33d"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PRIMETradeAI",
+   "url": "https://github.com/yashmahajan11234567/PRIMETradeAI",
+   "description": "Bitcoin Market Sentiment vs Trader Behavior Analysis using SQL, Python, Machine Learning, and Streamlit Dashboard",
+   "is_fork": false,
+   "color": "#4236e2",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/tree/main",
+     "total_commits": 18,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "51d1575",
+       "message": "Add files via upload",
+       "date": "2026-06-04T06:29:32Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/51d15758f20a2eee7afffaee492441f4af4143cd"
+      },
+      {
+       "sha": "05c8cd1",
+       "message": "Delete Project_Summary.pdf",
+       "date": "2026-06-04T06:29:06Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/05c8cd19d07e1cfc91d42ba4de3460a9e93f428b"
+      },
+      {
+       "sha": "a939ea7",
+       "message": "Add files via upload",
+       "date": "2026-06-03T14:37:53Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/a939ea7a6686fd916488e99a47b5cd5bb4ee4d61"
+      },
+      {
+       "sha": "78f54fb",
+       "message": "Delete Project_Summary.pdf",
+       "date": "2026-06-03T14:37:28Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/78f54fb495dcb2ccf32cd329bbdf9f184c644a1b"
+      },
+      {
+       "sha": "88b3d38",
+       "message": "Add files via upload",
+       "date": "2026-06-03T14:33:33Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/88b3d3856c70a3c32eb9f06b2e73e2b6b8650e26"
+      },
+      {
+       "sha": "ac70f14",
+       "message": "Add files via upload",
+       "date": "2026-06-03T14:32:57Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/ac70f14f314f43439122ff668dda00efd40af8e6"
+      },
+      {
+       "sha": "e862b85",
+       "message": "Delete PartC/Project_Summary.pdf",
+       "date": "2026-06-03T14:29:29Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/e862b850ca95853527f6139edf7ed84168fad9b3"
+      },
+      {
+       "sha": "f140e3b",
+       "message": "Delete PartC/README.md",
+       "date": "2026-06-03T14:29:08Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/f140e3bff02cc40c61c0662d2a448dc979b6cf60"
+      },
+      {
+       "sha": "9d82369",
+       "message": "Delete PartC/placeholder",
+       "date": "2026-06-03T14:28:55Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/9d823690aabf689f600f1b643a973049db4192ed"
+      },
+      {
+       "sha": "51fab75",
+       "message": "Add files via upload",
+       "date": "2026-06-03T14:28:03Z",
+       "url": "https://github.com/yashmahajan11234567/PRIMETradeAI/commit/51fab751e70b4f316eefc45f025c4a8726190bc0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Projects",
+   "url": "https://github.com/yashmahajan11234567/Projects",
+   "description": "",
+   "is_fork": false,
+   "color": "#e26a36",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/Projects/tree/main",
+     "total_commits": 47,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "c58073f",
+       "message": "Add README with project descriptions and categories",
+       "date": "2026-04-18T17:06:07Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/c58073f6c444b03f4440507a41e81213b052d2da"
+      },
+      {
+       "sha": "3cea0d8",
+       "message": "Revise README for Affordable Housing Recommendation System",
+       "date": "2026-04-18T17:03:02Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/3cea0d8f75d5c0b5d64b6272d96ba07447417357"
+      },
+      {
+       "sha": "19c026c",
+       "message": "Enhance README with project details and contributions",
+       "date": "2026-04-18T17:01:46Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/19c026cb3f9ebab3836a452aadca15c40f51e575"
+      },
+      {
+       "sha": "a8ebbf8",
+       "message": "Add housing demand prediction model with user input",
+       "date": "2026-04-18T17:01:04Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/a8ebbf832c01e45582bef3f984e6f95bee1c0ead"
+      },
+      {
+       "sha": "4fe8eaa",
+       "message": "Create README.md",
+       "date": "2026-04-18T16:59:44Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/4fe8eaaec9c591b186c1eae4759449c8137e2471"
+      },
+      {
+       "sha": "4f7b22a",
+       "message": "Update README.md",
+       "date": "2026-03-22T13:14:59Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/4f7b22ad540532f618e96aab140807de2748e68e"
+      },
+      {
+       "sha": "59d58ec",
+       "message": "Update README.md",
+       "date": "2026-03-22T13:13:30Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/59d58ec98ed4b05173e93f67493de014b9c72231"
+      },
+      {
+       "sha": "0ebc8ec",
+       "message": "Add files via upload",
+       "date": "2026-03-22T13:12:52Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/0ebc8ecb0d526f748642d3a51f02c88d64d5571a"
+      },
+      {
+       "sha": "18d3162",
+       "message": "Create README.md",
+       "date": "2026-03-22T13:11:12Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/18d3162d21a83c9f1f1199f5ea7a5d36e02986e1"
+      },
+      {
+       "sha": "02c97fb",
+       "message": "Update README.md",
+       "date": "2026-03-22T13:10:45Z",
+       "url": "https://github.com/yashmahajan11234567/Projects/commit/02c97fb216ef1e63ab6bfb2bc0c666b727547ad2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers",
+   "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers",
+   "description": "",
+   "is_fork": false,
+   "color": "#e23667",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/tree/main",
+     "total_commits": 450,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "56939c7",
+       "message": "fix(config): allow telemetry disable and conditional AWS in production",
+       "date": "2026-10-19T07:14:33Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/56939c71822ec01cb169e3646dc5fa2452dbf6b0"
+      },
+      {
+       "sha": "59c31fe",
+       "message": "fix(auth): match Auth0 issuer during JWT validation",
+       "date": "2026-10-19T04:21:04Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/59c31fe6767bf03f74bb1c124f8aa4a6fd4b6028"
+      },
+      {
+       "sha": "d055616",
+       "message": "fix(auth): add callback-stage diagnostic logging for Auth0 OAuth troubleshooting",
+       "date": "2026-10-19T04:05:07Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/d055616759435371162981a5a3d4f334ef77e651"
+      },
+      {
+       "sha": "96202d3",
+       "message": "fix(auth): normalize OIDC issuer trailing slashes for Auth0 compatibility; add sanitized sign-in error logging and regre",
+       "date": "2026-10-19T02:32:21Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/96202d3ccaf647f8efd2dc507d80dd7c9673679a"
+      },
+      {
+       "sha": "df85b6f",
+       "message": "fix(build): ignore TypeScript errors in test files for Vercel deployment",
+       "date": "2026-10-18T17:30:40Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/df85b6f26a57f15523ebeff5f42b28efaab2587a"
+      },
+      {
+       "sha": "c999341",
+       "message": "fix(deploy): use npm install instead of npm ci for Vercel compatibility",
+       "date": "2026-10-18T17:24:25Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/c9993410eb5b043d469a0834dafc7358afd1fabd"
+      },
+      {
+       "sha": "e00099e",
+       "message": "fix(deps): sync package-lock.json for npm ci",
+       "date": "2026-10-18T16:49:18Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/e00099e921615f45c00309e69529ffe99169944b"
+      },
+      {
+       "sha": "49735fd",
+       "message": "chore(deploy): enable Vercel main deployment and add Auth0 compatibility",
+       "date": "2026-10-18T14:54:45Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/49735fdd8952b76be9c5f5c7180766c18844a81f"
+      },
+      {
+       "sha": "fd411b9",
+       "message": "Merge pull request #13 from painjanevivek/main",
+       "date": "2026-10-17T16:36:50Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/fd411b9f44ac945b6c1e8354cabede4d1ccbb6a1"
+      },
+      {
+       "sha": "8422ac5",
+       "message": "chore(git): consolidate preserved public histories on main",
+       "date": "2026-10-17T14:56:38Z",
+       "url": "https://github.com/yashmahajan11234567/Real-Time-Balance-Visibility-in-Microservice-Based-Money-Transfers/commit/8422ac502bfc88e6eed52f96596c9bd437aea024"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sql-data-warehouse",
+   "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse",
+   "description": "",
+   "is_fork": false,
+   "color": "#3647e2",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/tree/main",
+     "total_commits": 25,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "2e29388",
+       "message": "Delete datasets/placeholder",
+       "date": "2026-06-02T16:37:23Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/2e2938898894227e8aee84e9f66f88fe4c30f5e4"
+      },
+      {
+       "sha": "fa81507",
+       "message": "Delete datasets/source_erp/placeholder",
+       "date": "2026-06-02T16:37:13Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/fa81507eec2621f2cda9a6bcf09c2d56cd30771d"
+      },
+      {
+       "sha": "591cc5a",
+       "message": "Add files via upload",
+       "date": "2026-06-02T16:36:49Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/591cc5a3315111cfd31a8ec92ff5a9e0cc77b26f"
+      },
+      {
+       "sha": "c5b554e",
+       "message": "Delete datasets/source_crm/placeholder",
+       "date": "2026-06-02T16:36:23Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/c5b554eeb9fa6c6c407a608b389186882c2a1b3e"
+      },
+      {
+       "sha": "fd71711",
+       "message": "Add files via upload",
+       "date": "2026-06-02T16:35:38Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/fd71711ed248f5ac6019cdc0158f1a999b48c054"
+      },
+      {
+       "sha": "a9dd939",
+       "message": "Create placeholder",
+       "date": "2026-06-02T16:35:03Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/a9dd939ad050dcd32d3e229e0280a2df955e0f59"
+      },
+      {
+       "sha": "bfb0a88",
+       "message": "Create placeholder",
+       "date": "2026-06-02T16:34:33Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/bfb0a8872f8743ebe373611f3e3bfc121aae594d"
+      },
+      {
+       "sha": "3999c25",
+       "message": "Delete datasets/source_crm",
+       "date": "2026-06-02T16:32:33Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/3999c251b69044bdb183c3c04dfffb0ea9e09be3"
+      },
+      {
+       "sha": "b5fc1ee",
+       "message": "Create source_crm",
+       "date": "2026-06-02T16:32:10Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/b5fc1ee2f551e2ba5926dc637ae677d596a0dc70"
+      },
+      {
+       "sha": "d6bb9ae",
+       "message": "Add quality check script for Gold Layer validation",
+       "date": "2026-04-24T09:42:00Z",
+       "url": "https://github.com/yashmahajan11234567/Sql-data-warehouse/commit/d6bb9ae5596cc8154195ac91c696f339a241bd6d"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "yashmahajan11234567",
+   "url": "https://github.com/yashmahajan11234567/yashmahajan11234567",
+   "description": "GitHub profile README \u2014 dark futuristic developer dashboard (GitSkins-style, self-hosted)",
+   "is_fork": false,
+   "color": "#a636e2",
+   "branches": [
+    {
+     "name": "main",
+     "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/tree/main",
+     "total_commits": 1,
+     "commits_displayed": 1,
+     "commits": [
+      {
+       "sha": "90cb7de",
+       "message": "chore: initialize profile repository (empty)",
+       "date": "2026-11-20T17:05:10Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/90cb7de6df1537f580d78c7bfb1a8e56422ef815"
+      }
+     ]
+    },
+    {
+     "name": "profile-makeover",
+     "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/tree/profile-makeover",
+     "total_commits": 10,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "e89f3dc",
+       "message": "refactor(stats): compact 5-in-a-row cards with Lucide line icons",
+       "date": "2026-11-21T07:47:29Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/e89f3dc43ccacb38cfd874e3732af0c8b3e6aef1"
+      },
+      {
+       "sha": "edb1761",
+       "message": "fix(banner): restore SMIL typewriter animation; caret as trailing tspan",
+       "date": "2026-11-21T07:19:03Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/edb1761aa9c067ca547390c1b61f6de80f8b46dd"
+      },
+      {
+       "sha": "92864d0",
+       "message": "feat: clean About Me intro + contact row; portfolio now Cloudflare Pages",
+       "date": "2026-11-21T06:50:52Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/92864d01e4719eb2ac545953292ecd3cc2df1a63"
+      },
+      {
+       "sha": "ec6ac85",
+       "message": "feat: unified hero banner per approved reference design",
+       "date": "2026-11-21T06:19:07Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/ec6ac85088eb0e92ac2a31cc9fbe143fd4a1b62e"
+      },
+      {
+       "sha": "f4fba9f",
+       "message": "fix: technology icons now render with official brand colors on dark cards",
+       "date": "2026-11-21T04:51:42Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/f4fba9fd661c58fa9ce405fc4bb9314a6ab7e9dd"
+      },
+      {
+       "sha": "efec299",
+       "message": "refine: user avatar, brand-color icons, mobile-readable stats/banner",
+       "date": "2026-11-21T04:27:58Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/efec2995c46b0b4b64964d14d7d260c118534579"
+      },
+      {
+       "sha": "35eb0e9",
+       "message": "feat: real 3D contribution graph generated from live API data",
+       "date": "2026-11-20T20:02:39Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/35eb0e9bc1963ef5ec4644ddc27b5601901a4113"
+      },
+      {
+       "sha": "c1ae4a0",
+       "message": "style: dark card backgrounds for tech icons; truncate long repo card titles",
+       "date": "2026-11-20T19:34:29Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/c1ae4a094eb7807cd10a60a6996f7236ceeba495"
+      },
+      {
+       "sha": "df005b4",
+       "message": "feat: dark futuristic profile README with self-hosted neon assets",
+       "date": "2026-11-20T19:19:42Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/df005b47e2cbf83551d99c9bd3cfad6d1011b372"
+      },
+      {
+       "sha": "90cb7de",
+       "message": "chore: initialize profile repository (empty)",
+       "date": "2026-11-20T17:05:10Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/90cb7de6df1537f580d78c7bfb1a8e56422ef815"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
