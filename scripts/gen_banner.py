@@ -20,6 +20,8 @@ MUTED = "#9aa7bd"
 NAME = "YASH MAHAJAN"
 BIO = "Hi there! I'm a developer from Pune, India \U0001F4CD"
 ROLES = "Data Analyst/Engineer | Cloud/DevOps"
+CYCLE = 8.0     # seconds for one full type/erase cycle
+CHAR_T = 0.085  # seconds per character
 
 # avatar circle geometry (fractions of the reference design)
 AV_CX, AV_CY, AV_R = 192, 150, 108
@@ -51,6 +53,29 @@ def waves():
     return "".join(out)
 
 
+def typed_roles(x, y, size):
+    """Typewriter loop on the roles line. The caret is a trailing <tspan> inside
+    the same <text> element, so it always sits exactly after the last character
+    regardless of the font's real advance width -- it can never overlap a glyph."""
+    parts = [f'<text x="{x}" y="{y}" font-family="Consolas, Menlo, monospace" '
+             f'font-size="{size}" font-weight="bold" fill="#ffffff" letter-spacing="1">']
+    for i, ch in enumerate(ROLES):
+        b = (0.5 + i * CHAR_T) / CYCLE
+        end = min(b + 0.04, 0.93)
+        esc = ch.replace("&", "&amp;").replace("<", "&lt;")
+        parts.append(
+            f'<tspan><animate attributeName="opacity" values="0;0;1;1;0" '
+            f'keyTimes="0;{b:.4f};{end:.4f};0.93;1" dur="{CYCLE}s" '
+            f'repeatCount="indefinite"/>{esc}</tspan>'
+        )
+    parts.append(
+        f'<tspan fill="{CYAN}"><animate attributeName="opacity" values="1;1;0;0" '
+        f'keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>\u2588</tspan>'
+    )
+    parts.append("</text>")
+    return "".join(parts)
+
+
 def main():
     grid = "".join(
         f'<line x1="{gx}" y1="0" x2="{gx}" y2="{H}" stroke="{CYAN}" stroke-opacity="0.05"/>'
@@ -59,7 +84,6 @@ def main():
         f'<line x1="0" y1="{gy}" x2="{W}" y2="{gy}" stroke="{CYAN}" stroke-opacity="0.05"/>'
         for gy in range(0, H, 40)
     )
-    caret_x = TEXT_X + len(ROLES) * 24 * 0.60 + 10
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -81,8 +105,7 @@ def main():
 <line x1="{SEP_X}" y1="75" x2="{SEP_X}" y2="195" stroke="{CYAN}" stroke-width="2" stroke-opacity="0.85" filter="url(#glow)"/>
 <text x="{TEXT_X}" y="92" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="54" font-weight="800" fill="url(#nameGrad)" filter="url(#glow)" letter-spacing="3">{NAME}</text>
 <text x="{TEXT_X}" y="134" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="20" fill="{MUTED}">{BIO}</text>
-<text x="{TEXT_X}" y="180" font-family="Consolas, Menlo, monospace" font-size="24" font-weight="bold" fill="#ffffff" letter-spacing="1">{ROLES}</text>
-<rect x="{caret_x}" y="{180 - 24 + 5}" width="13" height="24" fill="{CYAN}"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></rect>
+{typed_roles(TEXT_X, 180, 24)}
 </svg>'''
     out = os.path.join(os.path.dirname(__file__), "..", "assets", "banner.svg")
     with open(out, "w") as f:
