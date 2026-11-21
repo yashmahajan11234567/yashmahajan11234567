@@ -6,6 +6,20 @@
   <img src="assets/banner.svg" alt="Yash Mahajan — Data Analyst/Engineer | Cloud/DevOps" width="100%"/>
 </p>
 
+<h3>About Me</h3>
+
+<p>Computer Engineering student focused on building data-driven solutions through analytics, data engineering and cloud technologies. Interested in scalable infrastructure, automation and intelligent systems.</p>
+
+<table align="center">
+  <tr>
+    <td align="center"><a href="https://personal-website-k4x.pages.dev/"><img src="assets/icons/globe.svg" width="15" alt=""/> Portfolio · Cloudflare Pages</a></td>
+    <td align="center"><img src="assets/icons/divider.svg" width="2" alt=""/></td>
+    <td align="center"><a href="https://github.com/yashmahajan11234567"><img src="assets/icons/github.svg" width="15" alt=""/> GitHub</a></td>
+    <td align="center"><img src="assets/icons/divider.svg" width="2" alt=""/></td>
+    <td align="center"><img src="assets/icons/pin.svg" width="15" alt=""/> Pune, India</td>
+  </tr>
+</table>
+
 ---
 
 <h2 align="center">📊 GitHub Statistics</h2>
@@ -88,12 +102,12 @@
 
 ---
 
-<h2 align="center">🤝 Connect</h2>
+<h2 align="center">Connect</h2>
 
 <p align="center">
-  🌐 <a href="https://personal-website-river.vercel.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
-  🐙 <a href="https://github.com/yashmahajan11234567"><b>GitHub</b></a> &nbsp;·&nbsp;
-  📍 Pune, India
+  <a href="https://personal-website-k4x.pages.dev/">Portfolio · Cloudflare Pages</a> &nbsp;·&nbsp;
+  <a href="https://github.com/yashmahajan11234567">GitHub</a> &nbsp;·&nbsp;
+  Pune, India
 </p>
 
 <p align="center">
