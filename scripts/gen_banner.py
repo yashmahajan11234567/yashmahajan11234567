@@ -6,7 +6,7 @@ Run once; the output is committed. Regenerate with: python3 scripts/gen_banner.p
 """
 import os
 
-W, H = 1200, 300
+W, H = 960, 260
 CYAN, BLUE, GREEN, TEXT, MUTED = "#00f0ff", "#58a6ff", "#39ff14", "#e6edf3", "#8b949e"
 
 TYPED = "Data | Analytics | ML | DevOps | Data Engineering"
@@ -65,16 +65,16 @@ def main():
 <rect width="{W}" height="{H}" fill="url(#bg)"/>
 {''.join(grid)}
 {''.join(mountains)}
-<text x="60" y="120" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="58" font-weight="800"
-      fill="url(#nameGrad)" filter="url(#glow)" letter-spacing="4">YASH MAHAJAN</text>
-<text x="60" y="158" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="20" fill="{MUTED}">Hi there! I&#8217;m a developer from Pune, India &#128205;</text>
-{typing_text(60, 205, 24)}
+<text x="48" y="100" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="46" font-weight="800"
+      fill="url(#nameGrad)" filter="url(#glow)" letter-spacing="3">YASH MAHAJAN</text>
+<text x="48" y="132" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="17" fill="{MUTED}">Hi there! I&#8217;m a developer from Pune, India &#128205;</text>
+{typing_text(48, 178, 21)}
 <g>
-  <rect x="820" y="42" width="340" height="112" rx="10" fill="#0a0f1e" stroke="#30363d"/>
-  <circle cx="840" cy="62" r="5" fill="#ff5f57"/><circle cx="858" cy="62" r="5" fill="#febc2e"/><circle cx="876" cy="62" r="5" fill="#28c840"/>
-  <text x="836" y="92" font-family="Consolas, Menlo, monospace" font-size="14" fill="{GREEN}">&gt; whoami</text>
-  <text x="836" y="114" font-family="Consolas, Menlo, monospace" font-size="14" fill="{GREEN}">&gt; data-analyst &amp; ml-enthusiast</text>
-  <text x="836" y="136" font-family="Consolas, Menlo, monospace" font-size="14" fill="{GREEN}">&gt; building data systems_</text>
+  <rect x="660" y="34" width="276" height="96" rx="9" fill="#0a0f1e" stroke="#30363d"/>
+  <circle cx="678" cy="51" r="4.5" fill="#ff5f57"/><circle cx="694" cy="51" r="4.5" fill="#febc2e"/><circle cx="710" cy="51" r="4.5" fill="#28c840"/>
+  <text x="674" y="78" font-family="Consolas, Menlo, monospace" font-size="12.5" fill="{GREEN}">&gt; whoami</text>
+  <text x="674" y="98" font-family="Consolas, Menlo, monospace" font-size="12.5" fill="{GREEN}">&gt; data-analyst &amp; ml-enthusiast</text>
+  <text x="674" y="118" font-family="Consolas, Menlo, monospace" font-size="12.5" fill="{GREEN}">&gt; building data systems_</text>
 </g>
 </svg>'''
     out = os.path.join(os.path.dirname(__file__), "..", "assets", "banner.svg")

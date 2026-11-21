@@ -86,18 +86,22 @@ def gen_stats(total_contrib, repo_count, stars, forks, years):
         ("⑂", str(forks), "Forks", "#a371f7"),
         ("📅", f"{years}+", "Years on GitHub", GREEN),
     ]
+    # 3 + 2 layout: narrow enough to stay readable when scaled on mobile
     cw, ch, gap = 156, 96, 12
-    w = len(cards) * cw + (len(cards) - 1) * gap
-    h = ch
+    cols = 3
+    rows = (len(cards) + cols - 1) // cols
+    w = cols * cw + (cols - 1) * gap
+    h = rows * ch + (rows - 1) * gap
     parts = [svg_open(w, h)]
     for i, (icon, val, label, color) in enumerate(cards):
-        x = i * (cw + gap)
+        x = (i % cols) * (cw + gap)
+        y = (i // cols) * (ch + gap)
         parts.append(
-            f'<rect x="{x}" y="0" width="{cw}" height="{ch}" rx="12" fill="{CARD}" '
+            f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="12" fill="{CARD}" '
             f'stroke="{color}" stroke-opacity="0.55" stroke-width="1.5"/>'
-            f'<text x="{x+14}" y="30" font-size="20">{icon}</text>'
-            f'<text x="{x+14}" y="62" font-size="26" font-weight="bold" fill="{color}">{val}</text>'
-            f'<text x="{x+14}" y="84" font-size="11.5" fill="{MUTED}">{label}</text>'
+            f'<text x="{x+14}" y="{y+30}" font-size="20">{icon}</text>'
+            f'<text x="{x+14}" y="{y+62}" font-size="26" font-weight="bold" fill="{color}">{val}</text>'
+            f'<text x="{x+14}" y="{y+84}" font-size="11.5" fill="{MUTED}">{label}</text>'
         )
     parts.append("</svg>")
     return "".join(parts)
