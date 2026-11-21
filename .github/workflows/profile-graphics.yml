@@ -35,6 +35,21 @@ jobs:
         run: python3 scripts/gen_tower_preview.py
         continue-on-error: true
 
+      - name: Generate contribution calendar data (3D graph)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_contrib_data.py
+        continue-on-error: true   # keep previous dataset if the API call fails
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/snake.svg?palette=github-dark&color_snake=%2300f0ff&color_dots=%23161b22,%230f5132,%231fa055,%232ee66b,%2300f0ff
+        continue-on-error: true
+
       - name: Generate stats / streak / languages / featured cards
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
