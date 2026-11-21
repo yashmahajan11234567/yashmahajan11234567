@@ -40,18 +40,16 @@
 
 ---
 
-<h2 align="center">📈 Contribution Graph</h2>
+<h2 align="center">🏙️ GitHub Activity Tower</h2>
 
 <p align="center">
-  <img src="assets/contrib-3d.svg" alt="3D contribution graph" width="100%"/>
+  <a href="https://personal-website-k4x.pages.dev/#/activity-tower" target="_blank" rel="noopener noreferrer">
+    <img src="assets/tower-preview.svg" alt="GitHub Activity Tower — interactive 3D visualization of all repositories, branches, and commits" width="100%"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="assets/contribution-graph.svg" alt="2D contribution heatmap, last 52 weeks" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="assets/snake.svg" alt="Contribution snake" width="100%"/>
+  <em>Explore my GitHub Activity Tower → interactive 3D visualization of all repositories, branches, and commits</em>
 </p>
 
 ---
