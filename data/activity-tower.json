@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-21T08:41:06+00:00",
+ "generated_at": "2026-11-22T04:33:46+00:00",
  "user": "yashmahajan11234567",
  "commits_per_branch_limit": 10,
  "totals": {
   "repositories": 17,
-  "branches": 22,
-  "commits_displayed": 190
+  "branches": 23,
+  "commits_displayed": 209
  },
  "repositories": [
   {
@@ -941,6 +941,74 @@
      ]
     },
     {
+     "name": "feature/activity-tower",
+     "url": "https://github.com/yashmahajan11234567/personal-website/tree/feature/activity-tower",
+     "total_commits": 108,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "4afcaa7",
+       "message": "feat(activity-tower): add interactive 3D GitHub Activity Tower as new world",
+       "date": "2026-11-21T10:06:59Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/4afcaa74d863c475c41cfa7f425d04c1e93e9f57"
+      },
+      {
+       "sha": "fc0ae36",
+       "message": "Merge integrate/data-cloud-worlds into main: Data World + Cloud World (Projects Cloud, incl. seamless entry/exit) integr",
+       "date": "2026-11-19T16:56:27Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/fc0ae3633e3d4dc635ca25cc7eae39e7da23f260"
+      },
+      {
+       "sha": "a20eb52",
+       "message": "chore(integration): restore all pre-existing main files (root docs incl. README.md, qa-screenshots-* dirs)",
+       "date": "2026-11-19T16:40:48Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/a20eb52154e1e28ee47cbf246a075f5ed88d80d7"
+      },
+      {
+       "sha": "fbe1ef9",
+       "message": "chore(integration): scope control \u2014 drop superseded prototype worlds, generated screenshots, audit docs, one-off QA scri",
+       "date": "2026-11-19T15:15:24Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/fbe1ef986e63d2b5c995f89d5af835c6dcd354e1"
+      },
+      {
+       "sha": "fc2aaf1",
+       "message": "Merge origin/restore/data-world-386991f into main: Data World + Cloud World (Projects Cloud) with Experience section pre",
+       "date": "2026-11-19T15:10:20Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/fc2aaf14bf77c0615eb53fe6e4b2e970215549cc"
+      },
+      {
+       "sha": "8b45656",
+       "message": "feat(projects-cloud): seamless doorway entry/exit \u2014 warm camera-faded threshold, gentler door swing with camera-clearanc",
+       "date": "2026-11-19T13:24:48Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/8b45656e6b42b9194e6d92d2baf994a5b9cb9718"
+      },
+      {
+       "sha": "4ab2634",
+       "message": "calibrate(projects-cloud): close rear exterior, fluffier silhouette, softer white material",
+       "date": "2026-11-19T09:48:47Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/4ab2634df9b356cc9be07ee271d733753ef2154c"
+      },
+      {
+       "sha": "be4a520",
+       "message": "fix(projects-cloud): solid exterior cloud + BackSide interior shell",
+       "date": "2026-11-18T18:35:36Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/be4a5201f3288a0cccec2d09d781136752a9383b"
+      },
+      {
+       "sha": "b64f11c",
+       "message": "refine(projects-cloud): whiter cloud + scalloped front rim + slimmer door frame",
+       "date": "2026-11-18T17:51:24Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/b64f11cec318bec72ba50dd4df78ef87cbbcda98"
+      },
+      {
+       "sha": "d463f6a",
+       "message": "refine(projects-cloud): fluffier white cloud body + reference entrance details",
+       "date": "2026-11-18T17:14:23Z",
+       "url": "https://github.com/yashmahajan11234567/personal-website/commit/d463f6a8c3bfe41584c81e18d2b59aacb40f693a"
+      }
+     ]
+    },
+    {
      "name": "integrate/data-cloud-worlds",
      "url": "https://github.com/yashmahajan11234567/personal-website/tree/integrate/data-cloud-worlds",
      "total_commits": 106,
@@ -1396,23 +1464,39 @@
     {
      "name": "main",
      "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/tree/main",
-     "total_commits": 1,
-     "commits_displayed": 1,
-     "commits": [
-      {
-       "sha": "90cb7de",
-       "message": "chore: initialize profile repository (empty)",
-       "date": "2026-11-20T17:05:10Z",
-       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/90cb7de6df1537f580d78c7bfb1a8e56422ef815"
-      }
-     ]
-    },
-    {
-     "name": "profile-makeover",
-     "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/tree/profile-makeover",
-     "total_commits": 10,
+     "total_commits": 15,
      "commits_displayed": 10,
      "commits": [
+      {
+       "sha": "732402f",
+       "message": "fix(readme): replace contribution graph with enlarged 3D version",
+       "date": "2026-11-22T04:28:10Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/732402f68c36e6863918674cb17451f92e04791a"
+      },
+      {
+       "sha": "b3ab575",
+       "message": "feat(readme): automate 3D contribution graph updates",
+       "date": "2026-11-22T04:12:06Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/b3ab575d9c23da98bbd5d3f527a6834a36955772"
+      },
+      {
+       "sha": "867f68c",
+       "message": "feat(readme): 3D contribution graph preview, featured project cards, contribution snake",
+       "date": "2026-11-21T20:27:48Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/867f68c1857dbf70d5ee9774deb3902eef6bdcfc"
+      },
+      {
+       "sha": "4697927",
+       "message": "feat(tower): add GitHub Activity Tower with static README preview",
+       "date": "2026-11-21T10:06:42Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/4697927d8af0f2ebd0d70728d2c77d315d23539a"
+      },
+      {
+       "sha": "b5228f1",
+       "message": "data: add GitHub activity tower dataset (17 repos, 22 branches, 190 commits)",
+       "date": "2026-11-21T09:50:54Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/b5228f1b650afb2c25f001712987ccc81e99a5fc"
+      },
       {
        "sha": "e89f3dc",
        "message": "refactor(stats): compact 5-in-a-row cards with Lucide line icons",
@@ -1442,36 +1526,74 @@
        "message": "fix: technology icons now render with official brand colors on dark cards",
        "date": "2026-11-21T04:51:42Z",
        "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/f4fba9fd661c58fa9ce405fc4bb9314a6ab7e9dd"
+      }
+     ]
+    },
+    {
+     "name": "profile-makeover",
+     "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/tree/profile-makeover",
+     "total_commits": 15,
+     "commits_displayed": 10,
+     "commits": [
+      {
+       "sha": "732402f",
+       "message": "fix(readme): replace contribution graph with enlarged 3D version",
+       "date": "2026-11-22T04:28:10Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/732402f68c36e6863918674cb17451f92e04791a"
       },
       {
-       "sha": "efec299",
-       "message": "refine: user avatar, brand-color icons, mobile-readable stats/banner",
-       "date": "2026-11-21T04:27:58Z",
-       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/efec2995c46b0b4b64964d14d7d260c118534579"
+       "sha": "b3ab575",
+       "message": "feat(readme): automate 3D contribution graph updates",
+       "date": "2026-11-22T04:12:06Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/b3ab575d9c23da98bbd5d3f527a6834a36955772"
       },
       {
-       "sha": "35eb0e9",
-       "message": "feat: real 3D contribution graph generated from live API data",
-       "date": "2026-11-20T20:02:39Z",
-       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/35eb0e9bc1963ef5ec4644ddc27b5601901a4113"
+       "sha": "867f68c",
+       "message": "feat(readme): 3D contribution graph preview, featured project cards, contribution snake",
+       "date": "2026-11-21T20:27:48Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/867f68c1857dbf70d5ee9774deb3902eef6bdcfc"
       },
       {
-       "sha": "c1ae4a0",
-       "message": "style: dark card backgrounds for tech icons; truncate long repo card titles",
-       "date": "2026-11-20T19:34:29Z",
-       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/c1ae4a094eb7807cd10a60a6996f7236ceeba495"
+       "sha": "4697927",
+       "message": "feat(tower): add GitHub Activity Tower with static README preview",
+       "date": "2026-11-21T10:06:42Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/4697927d8af0f2ebd0d70728d2c77d315d23539a"
       },
       {
-       "sha": "df005b4",
-       "message": "feat: dark futuristic profile README with self-hosted neon assets",
-       "date": "2026-11-20T19:19:42Z",
-       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/df005b47e2cbf83551d99c9bd3cfad6d1011b372"
+       "sha": "b5228f1",
+       "message": "data: add GitHub activity tower dataset (17 repos, 22 branches, 190 commits)",
+       "date": "2026-11-21T09:50:54Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/b5228f1b650afb2c25f001712987ccc81e99a5fc"
       },
       {
-       "sha": "90cb7de",
-       "message": "chore: initialize profile repository (empty)",
-       "date": "2026-11-20T17:05:10Z",
-       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/90cb7de6df1537f580d78c7bfb1a8e56422ef815"
+       "sha": "e89f3dc",
+       "message": "refactor(stats): compact 5-in-a-row cards with Lucide line icons",
+       "date": "2026-11-21T07:47:29Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/e89f3dc43ccacb38cfd874e3732af0c8b3e6aef1"
+      },
+      {
+       "sha": "edb1761",
+       "message": "fix(banner): restore SMIL typewriter animation; caret as trailing tspan",
+       "date": "2026-11-21T07:19:03Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/edb1761aa9c067ca547390c1b61f6de80f8b46dd"
+      },
+      {
+       "sha": "92864d0",
+       "message": "feat: clean About Me intro + contact row; portfolio now Cloudflare Pages",
+       "date": "2026-11-21T06:50:52Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/92864d01e4719eb2ac545953292ecd3cc2df1a63"
+      },
+      {
+       "sha": "ec6ac85",
+       "message": "feat: unified hero banner per approved reference design",
+       "date": "2026-11-21T06:19:07Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/ec6ac85088eb0e92ac2a31cc9fbe143fd4a1b62e"
+      },
+      {
+       "sha": "f4fba9f",
+       "message": "fix: technology icons now render with official brand colors on dark cards",
+       "date": "2026-11-21T04:51:42Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/f4fba9fd661c58fa9ce405fc4bb9314a6ab7e9dd"
       }
      ]
     }
