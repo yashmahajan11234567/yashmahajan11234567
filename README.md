@@ -61,9 +61,9 @@
 <table align="center">
   <tr>
     <td width="50%" style="background:#0d1420;border:1px solid #1f3a5f;border-radius:10px;padding:14px 16px;vertical-align:top">
-      <a href="https://github.com/yashmahajan11234567/Bluestock-fintech/tree/main/nifty100-financial-analysis(Bluestock-fintech)" style="color:#22d5ff"><strong>NIFTY 100 Financial Analysis</strong></a> <sub>· data</sub><br/>
-      <span style="color:#8b949e;font-size:13px">Financial analysis pipeline: 16 accounting validation rules, 10-table SQLite schema, ROE / D/E / coverage KPIs, FastAPI + Streamlit dashboard.</span><br/>
-      <sub style="color:#22d5ff">Python · pandas · SQLite · T-SQL · FastAPI · Streamlit · pytest · reportlab</sub><br/>
+      <a href="https://github.com/yashmahajan11234567/Bluestock-fintech" style="color:#22d5ff"><strong>Bluestock Fintech</strong></a> <sub>· data</sub><br/>
+      <span style="color:#8b949e;font-size:13px">Integrated financial analytics platform featuring Nifty 100 stock analysis and Mutual Fund Analysis, with interactive dashboards, financial metrics, screening, peer comparison, sector analysis, and reporting.</span><br/>
+      <sub style="color:#22d5ff">Python · Pandas · SQL · Streamlit · Plotly · Financial Analytics</sub><br/>
     </td>
     <td width="50%" style="background:#0d1420;border:1px solid #1f3a5f;border-radius:10px;padding:14px 16px;vertical-align:top">
       <a href="https://github.com/yashmahajan11234567/digital-prescription-verification-devops" style="color:#22d5ff"><strong>RxVerify — Digital Prescription Verification</strong></a> <sub>· cloud</sub><br/>
