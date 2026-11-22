@@ -41,6 +41,13 @@ jobs:
         run: python3 scripts/build_contrib_data.py
         continue-on-error: true   # keep previous dataset if the API call fails
 
+      - name: Install Pillow (3D graph renderer dependency)
+        run: python3 -m pip install pillow
+
+      - name: Generate 3D contribution graph PNG
+        run: python3 scripts/gen_contrib_3d.py   # writes assets/contribution-graph-3d.png atomically
+        continue-on-error: true   # renderer validates data first; previous PNG is never corrupted
+
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
