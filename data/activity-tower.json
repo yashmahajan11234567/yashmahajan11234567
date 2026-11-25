@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T12:48:41+00:00",
+ "generated_at": "2026-11-25T11:34:55+00:00",
  "user": "yashmahajan11234567",
  "commits_per_branch_limit": 10,
  "totals": {
@@ -1464,9 +1464,15 @@
     {
      "name": "main",
      "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/tree/main",
-     "total_commits": 18,
+     "total_commits": 19,
      "commits_displayed": 10,
      "commits": [
+      {
+       "sha": "2446d00",
+       "message": "chore: update profile graphics [skip ci]",
+       "date": "2026-11-24T12:48:54Z",
+       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/2446d00acc9066f5e66f0bd854e5a154e05fb197"
+      },
       {
        "sha": "4ec5298",
        "message": "chore: update profile graphics [skip ci]",
@@ -1520,12 +1526,6 @@
        "message": "refactor(stats): compact 5-in-a-row cards with Lucide line icons",
        "date": "2026-11-21T07:47:29Z",
        "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/e89f3dc43ccacb38cfd874e3732af0c8b3e6aef1"
-      },
-      {
-       "sha": "edb1761",
-       "message": "fix(banner): restore SMIL typewriter animation; caret as trailing tspan",
-       "date": "2026-11-21T07:19:03Z",
-       "url": "https://github.com/yashmahajan11234567/yashmahajan11234567/commit/edb1761aa9c067ca547390c1b61f6de80f8b46dd"
       }
      ]
     },
